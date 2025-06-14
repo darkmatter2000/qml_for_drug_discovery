@@ -1,5 +1,3 @@
-# Introduction
-
 **Molecular docking** is the process of identifying the optimal binding configuration between a **ligand** (typically a drug-like molecule) and the **active site** of a **protein**. This interaction can either inhibit or activate certain protein functions, making it highly relevant for therapeutic applications. However, determining the optimal configuration is computationally challenging due to the vast number of possible spatial conformations.
 
 In the [*Molecular Docking via DC-QAOA* tutorial](https://nvidia.github.io/cuda-quantum/latest/applications/python/digitized_counterdiabatic_qaoa.html) provided by NVIDIA CUDA-Q, the authors use a variant of the **Quantum Approximate Optimization Algorithm (QAOA)** called **DC-QAOA** — where "DC" stands for **Digitized-Counterdiabatic** — to address this problem. Their implementation is based on the paper [*Molecular Docking via Quantum Approximate Optimization Algorithm*](https://arxiv.org/pdf/2308.04098).
